@@ -15,5 +15,5 @@ type Bootcamp struct {
 func main() {
 	event := Bootcamp{lat:31,lon:24}
 	event.date = time.Now()
-	fmt.Printf("Event on %s, location (%f, %f)",event.date, event.lat, event.lon)
+	fmt.Printf("Event on %s, in location (%f, %f)",event.date, event.lat, event.lon)
 }
